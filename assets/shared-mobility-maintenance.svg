@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1180" viewBox="0 0 900 1180" role="img" aria-labelledby="title desc">
+  <title id="title">Shared mobility operations platform</title>
+  <desc id="desc">Product mockup showing a shared mobility operations dashboard and a mobile maintenance work order screen.</desc>
+  <defs>
+    <linearGradient id="mobility-map" x1="92" y1="206" x2="790" y2="662" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101717"/>
+      <stop offset="1" stop-color="#182423"/>
+    </linearGradient>
+    <linearGradient id="mobility-route" x1="198" y1="304" x2="578" y2="530" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93f9b9"/>
+      <stop offset="0.52" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="mobility-window" x1="88" y1="98" x2="812" y2="710" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10201f"/>
+      <stop offset="0.55" stop-color="#0c1717"/>
+      <stop offset="1" stop-color="#081214"/>
+    </linearGradient>
+    <linearGradient id="mobility-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#152322"/>
+      <stop offset="1" stop-color="#0f1919"/>
+    </linearGradient>
+    <radialGradient id="mobility-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#93f9b9" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#93f9b9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="mobility-shadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1180" fill="none"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g class="desktop-mockup">
+      <ellipse cx="482" cy="396" rx="382" ry="276" fill="url(#mobility-glow)"/>
+      <rect x="66" y="76" width="768" height="656" rx="30" fill="#071114" filter="url(#mobility-shadow)"/>
+      <rect x="88" y="98" width="724" height="612" rx="24" fill="url(#mobility-window)" stroke="#2f403e" stroke-width="2"/>
+      <path d="M112 98h676a24 24 0 0 1 24 24v26H88v-26a24 24 0 0 1 24-24Z" fill="#111d1d"/>
+      <path d="M112 99h676" stroke="#f5fbf8" stroke-opacity="0.08" stroke-width="1"/>
+      <circle cx="118" cy="123" r="6.5" fill="#a78bfa"/>
+      <circle cx="142" cy="123" r="6.5" fill="#67e8f9"/>
+      <circle cx="166" cy="123" r="6.5" fill="#93f9b9"/>
+      <path d="M88 148h724" stroke="#263331" stroke-width="2"/>
+
+      <g transform="translate(104 204)">
+        <text x="0" y="0" fill="#f5fbf8" font-size="32" font-weight="950">Fleet operations</text>
+        <text x="0" y="32" fill="#a8b8b5" font-size="16" font-weight="750">Availability, access, maintenance, and service rules in one workspace</text>
+        <rect x="492" y="-32" width="146" height="34" rx="17" fill="#10241d"/>
+        <circle cx="514" cy="-15" r="5.5" fill="#67e8f9"/>
+        <text x="530" y="-10" fill="#67e8f9" font-size="12" font-weight="850">134 vehicles</text>
+      </g>
+
+      <g transform="translate(104 268)">
+        <rect width="438" height="292" rx="22" fill="url(#mobility-map)" stroke="#2f403e" stroke-width="2"/>
+        <text x="24" y="42" fill="#dce7e4" font-size="16" font-weight="900">Live service map</text>
+        <path d="M60 226 C116 170 150 202 196 148 C236 100 286 132 330 82 C360 50 390 52 406 62" fill="none" stroke="#263331" stroke-width="18" stroke-linecap="round"/>
+        <path d="M60 226 C116 170 150 202 196 148 C236 100 286 132 330 82 C360 50 390 52 406 62" fill="none" stroke="url(#mobility-route)" stroke-width="5" stroke-linecap="round"/>
+        <g>
+          <circle cx="78" cy="212" r="14" fill="#071114" stroke="#93f9b9" stroke-width="4"/>
+          <circle cx="196" cy="148" r="14" fill="#071114" stroke="#67e8f9" stroke-width="4"/>
+          <circle cx="330" cy="82" r="14" fill="#071114" stroke="#a78bfa" stroke-width="4"/>
+          <circle cx="406" cy="62" r="14" fill="#071114" stroke="#67e8f9" stroke-width="4"/>
+        </g>
+        <g font-size="12" font-weight="850">
+          <rect x="24" y="238" width="104" height="30" rx="15" fill="#10241d"/>
+          <text x="42" y="258" fill="#93f9b9">Available</text>
+          <rect x="140" y="238" width="116" height="30" rx="15" fill="#10241d"/>
+          <text x="158" y="258" fill="#93f9b9">Maintenance</text>
+        </g>
+      </g>
+
+      <g transform="translate(566 268)">
+        <rect width="224" height="292" rx="22" fill="url(#mobility-card)" stroke="#2f403e" stroke-width="2"/>
+        <text x="22" y="42" fill="#dce7e4" font-size="16" font-weight="900">Fleet state</text>
+        <g transform="translate(22 70)">
+          <rect width="180" height="48" rx="16" fill="#10241d"/>
+          <text x="18" y="30" fill="#93f9b9" font-size="15" font-weight="850">92% available</text>
+          <rect y="66" width="180" height="48" rx="16" fill="#17231f"/>
+          <text x="18" y="96" fill="#67e8f9" font-size="15" font-weight="850">18 in service</text>
+          <rect y="132" width="180" height="48" rx="16" fill="#10241d"/>
+          <text x="18" y="162" fill="#93f9b9" font-size="15" font-weight="850">9 pending orders</text>
+        </g>
+        <rect x="22" y="260" width="180" height="10" rx="5" fill="#263331"/>
+        <rect x="22" y="260" width="148" height="10" rx="5" fill="#a78bfa"/>
+      </g>
+
+      <g transform="translate(104 584)">
+        <rect width="686" height="96" rx="20" fill="url(#mobility-card)" stroke="#2f403e" stroke-width="2"/>
+        <text x="24" y="34" fill="#a8b8b5" font-size="13" font-weight="850">VEHICLE</text>
+        <text x="182" y="34" fill="#a8b8b5" font-size="13" font-weight="850">STATUS</text>
+        <text x="356" y="34" fill="#a8b8b5" font-size="13" font-weight="850">WORK ORDER</text>
+        <text x="610" y="34" fill="#a8b8b5" font-size="13" font-weight="850">ETA</text>
+        <text x="24" y="68" fill="#f5fbf8" font-size="15" font-weight="850">WOB-VR 9E</text>
+        <rect x="182" y="48" width="112" height="28" rx="14" fill="#17231f"/>
+        <text x="199" y="67" fill="#67e8f9" font-size="13" font-weight="850">In progress</text>
+        <text x="356" y="68" fill="#f5fbf8" font-size="15" font-weight="750">Inspection and cleaning</text>
+        <text x="610" y="68" fill="#a8b8b5" font-size="15" font-weight="750">18:30</text>
+      </g>
+    </g>
+
+    <g class="companion-mockup" transform="translate(0 26)">
+      <rect x="292" y="730" width="316" height="398" rx="44" fill="#071114" filter="url(#mobility-shadow)"/>
+      <rect x="308" y="750" width="284" height="358" rx="30" fill="url(#mobility-window)"/>
+      <path d="M338 751h224" stroke="#f5fbf8" stroke-opacity="0.08"/>
+      <text x="334" y="800" fill="#f5fbf8" font-size="29" font-weight="950">Work order</text>
+      <text x="334" y="830" fill="#a8b8b5" font-size="15" font-weight="760">MOB-18 battery check</text>
+      <g transform="translate(334 870)" font-size="15" font-weight="850">
+        <rect width="232" height="42" rx="16" fill="#10241d"/>
+        <circle cx="22" cy="21" r="9" fill="#93f9b9"/>
+        <text x="44" y="27" fill="#f5fbf8">Vehicle inspected</text>
+        <rect y="54" width="232" height="42" rx="16" fill="#111d1d" stroke="#93f9b9" stroke-width="2"/>
+        <circle cx="22" cy="75" r="9" fill="#93f9b9"/>
+        <text x="44" y="81" fill="#f5fbf8">Battery below limit</text>
+      </g>
+      <rect x="334" y="980" width="232" height="42" rx="21" fill="#f5fbf8"/>
+      <text x="450" y="1007" fill="#071114" text-anchor="middle" font-size="15" font-weight="900">Update status</text>
+      <path d="M308 1064h284v14a30 30 0 0 1-30 30H338a30 30 0 0 1-30-30Z" fill="#0d1818"/>
+      <path d="M308 1064h284" stroke="#263331" stroke-width="2"/>
+      <g fill="none" stroke="#a8b8b5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(340 1078) scale(0.72)">
+          <path d="m15 18-6-6 6-6"/>
+        </g>
+        <g transform="translate(392 1078) scale(0.72)">
+          <path d="m9 18 6-6-6-6"/>
+        </g>
+        <g transform="translate(462 1078) scale(0.72)">
+          <path d="M12 3v12"/>
+          <path d="m17 8-5-5-5 5"/>
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        </g>
+        <g transform="translate(528 1078) scale(0.72)">
+          <rect x="8" y="8" width="14" height="14" rx="2"/>
+          <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+        </g>
+      </g>
+    </g>
+
+    <g class="insight-card" transform="translate(620 832)">
+      <rect width="182" height="120" rx="22" fill="url(#mobility-card)" stroke="#2f403e" stroke-width="2" filter="url(#mobility-shadow)"/>
+      <text x="22" y="36" fill="#a8b8b5" font-size="13" font-weight="800">BOOKING IMPACT</text>
+      <text x="22" y="78" fill="#f5fbf8" font-size="32" font-weight="950">+14%</text>
+      <text x="22" y="102" fill="#67e8f9" font-size="13" font-weight="850">more available slots</text>
+    </g>
+  </g>
+</svg>

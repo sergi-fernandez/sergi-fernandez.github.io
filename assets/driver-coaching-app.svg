@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1180" viewBox="0 0 900 1180" role="img" aria-labelledby="title desc">
+  <title id="title">Driver performance coaching platform</title>
+  <desc id="desc">Product mockup showing a fleet driver coaching dashboard and a companion mobile quest screen.</desc>
+  <defs>
+    <linearGradient id="driver-score" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#93f9b9"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="driver-window" x1="92" y1="98" x2="808" y2="704" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10201f"/>
+      <stop offset="0.55" stop-color="#0c1717"/>
+      <stop offset="1" stop-color="#081214"/>
+    </linearGradient>
+    <linearGradient id="driver-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#152322"/>
+      <stop offset="1" stop-color="#0f1919"/>
+    </linearGradient>
+    <radialGradient id="driver-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="driver-shadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1180" fill="none"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g class="desktop-mockup">
+      <ellipse cx="480" cy="392" rx="376" ry="270" fill="url(#driver-glow)"/>
+      <rect x="70" y="76" width="760" height="650" rx="30" fill="#071114" filter="url(#driver-shadow)"/>
+      <rect x="92" y="98" width="716" height="606" rx="24" fill="url(#driver-window)" stroke="#2f403e" stroke-width="2"/>
+      <path d="M116 98h668a24 24 0 0 1 24 24v26H92v-26a24 24 0 0 1 24-24Z" fill="#111d1d"/>
+      <path d="M116 99h668" stroke="#f5fbf8" stroke-opacity="0.08" stroke-width="1"/>
+      <circle cx="122" cy="123" r="6.5" fill="#a78bfa"/>
+      <circle cx="146" cy="123" r="6.5" fill="#67e8f9"/>
+      <circle cx="170" cy="123" r="6.5" fill="#93f9b9"/>
+      <path d="M92 148h716" stroke="#263331" stroke-width="2"/>
+
+      <g transform="translate(112 192)">
+        <text x="0" y="0" fill="#f5fbf8" font-size="20" font-weight="900">Coach</text>
+        <text x="0" y="28" fill="#7f918d" font-size="13" font-weight="750">Scania fleet tools</text>
+        <g font-size="14" font-weight="820">
+          <rect y="62" width="140" height="38" rx="12" fill="#17231f"/>
+          <text x="18" y="87" fill="#93f9b9">Overview</text>
+          <rect y="112" width="140" height="38" rx="12" fill="#0f1a1a"/>
+          <text x="18" y="137" fill="#a8b8b5">Drivers</text>
+          <rect y="162" width="140" height="38" rx="12" fill="#0f1a1a"/>
+          <text x="18" y="187" fill="#a8b8b5">Lessons</text>
+          <rect y="212" width="140" height="38" rx="12" fill="#0f1a1a"/>
+          <text x="18" y="237" fill="#a8b8b5">Fleet follow-up</text>
+        </g>
+        <rect y="380" width="140" height="76" rx="16" fill="#101b1b" stroke="#22302e" stroke-width="2"/>
+        <text x="16" y="408" fill="#7f918d" font-size="12" font-weight="800">ACTIVE DRIVERS</text>
+        <text x="16" y="442" fill="#f5fbf8" font-size="30" font-weight="950">184</text>
+      </g>
+
+      <g transform="translate(282 192)">
+        <text x="0" y="0" fill="#f5fbf8" font-size="32" font-weight="950">Driver performance</text>
+        <text x="0" y="32" fill="#a8b8b5" font-size="16" font-weight="750">Fuel, safety, and coaching signals from connected trips</text>
+        <rect x="342" y="-29" width="158" height="34" rx="17" fill="#10241d"/>
+        <circle cx="364" cy="-12" r="5.5" fill="#67e8f9"/>
+        <text x="380" y="-7" fill="#67e8f9" font-size="12" font-weight="850">Live fleet data</text>
+
+        <g transform="translate(0 70)">
+          <rect width="148" height="108" rx="18" fill="url(#driver-card)" stroke="#2f403e" stroke-width="2"/>
+          <text x="20" y="34" fill="#a8b8b5" font-size="13" font-weight="800">FLEET SCORE</text>
+          <text x="20" y="78" fill="#f5fbf8" font-size="42" font-weight="950">82</text>
+          <text x="92" y="78" fill="#7f918d" font-size="17" font-weight="850">/100</text>
+          <rect x="20" y="88" width="108" height="8" rx="4" fill="#263331"/>
+          <rect x="20" y="88" width="90" height="8" rx="4" fill="url(#driver-score)"/>
+
+          <rect x="166" width="148" height="108" rx="18" fill="url(#driver-card)" stroke="#2f403e" stroke-width="2"/>
+          <text x="186" y="34" fill="#a8b8b5" font-size="13" font-weight="800">FUEL TREND</text>
+          <text x="186" y="78" fill="#67e8f9" font-size="34" font-weight="950">-11%</text>
+
+          <rect x="324" width="176" height="108" rx="18" fill="url(#driver-card)" stroke="#2f403e" stroke-width="2"/>
+          <text x="344" y="34" fill="#a8b8b5" font-size="13" font-weight="800">CURRENT FOCUS</text>
+          <text x="344" y="70" fill="#f5fbf8" font-size="17" font-weight="900">Cruise control</text>
+          <rect x="344" y="84" width="120" height="8" rx="4" fill="#263331"/>
+          <rect x="344" y="84" width="82" height="8" rx="4" fill="#a78bfa"/>
+        </g>
+
+        <g transform="translate(0 194)">
+          <rect width="350" height="214" rx="20" fill="url(#driver-card)" stroke="#2f403e" stroke-width="2"/>
+          <path d="M22 52h306" stroke="#f5fbf8" stroke-opacity="0.06"/>
+          <text x="22" y="38" fill="#dce7e4" font-size="16" font-weight="900">Eco score trend</text>
+          <path d="M38 160h272M38 112h272M38 64h272" stroke="#263331" stroke-width="2"/>
+          <path d="M38 150 C76 142 100 122 136 126 C174 130 190 94 226 94 C266 94 282 62 310 70" fill="none" stroke="#93f9b9" stroke-width="5" stroke-linecap="round"/>
+          <path d="M38 170 C86 162 112 152 154 154 C204 156 230 132 266 136 C292 138 298 118 310 112" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 9"/>
+          <circle cx="226" cy="94" r="7" fill="#93f9b9" stroke="#071114" stroke-width="3"/>
+          <circle cx="310" cy="70" r="7" fill="#93f9b9" stroke="#071114" stroke-width="3"/>
+          <text x="38" y="194" fill="#7f918d" font-size="12" font-weight="750">May</text>
+          <text x="272" y="194" fill="#7f918d" font-size="12" font-weight="750">Now</text>
+        </g>
+
+        <g transform="translate(354 194)">
+          <rect width="146" height="214" rx="20" fill="url(#driver-card)" stroke="#2f403e" stroke-width="2"/>
+          <text x="18" y="38" fill="#dce7e4" font-size="15" font-weight="900">Coaching cues</text>
+          <g font-size="13" font-weight="850">
+            <rect x="16" y="64" width="114" height="38" rx="12" fill="#17231f"/>
+            <text x="28" y="88" fill="#67e8f9" font-size="11.5">Anticipate brake</text>
+            <rect x="16" y="112" width="114" height="38" rx="12" fill="#10241d"/>
+            <text x="28" y="136" fill="#93f9b9" font-size="11.5">Cruise earlier</text>
+            <rect x="16" y="160" width="114" height="38" rx="12" fill="#10241d"/>
+            <text x="28" y="184" fill="#a78bfa" font-size="11.5">Steady speed</text>
+          </g>
+        </g>
+
+        <g transform="translate(0 418)">
+          <rect width="500" height="72" rx="18" fill="url(#driver-card)" stroke="#2f403e" stroke-width="2"/>
+          <text x="22" y="29" fill="#a8b8b5" font-size="12" font-weight="850">DRIVER</text>
+          <text x="208" y="29" fill="#a8b8b5" font-size="12" font-weight="850">SCORE</text>
+          <text x="284" y="29" fill="#a8b8b5" font-size="12" font-weight="850">FOCUS</text>
+          <text x="22" y="56" fill="#f5fbf8" font-size="14" font-weight="850">M. Andersson</text>
+          <text x="208" y="56" fill="#93f9b9" font-size="14" font-weight="900">89</text>
+          <text x="284" y="56" fill="#dce7e4" font-size="14" font-weight="750">Harsh braking down 18%</text>
+        </g>
+      </g>
+    </g>
+
+    <g class="companion-mockup" transform="translate(0 12)">
+      <rect x="302" y="738" width="296" height="386" rx="44" fill="#071114" filter="url(#driver-shadow)"/>
+      <rect x="318" y="758" width="264" height="346" rx="30" fill="url(#driver-window)"/>
+      <path d="M348 759h204" stroke="#f5fbf8" stroke-opacity="0.08"/>
+      <text x="342" y="812" fill="#f5fbf8" font-size="31" font-weight="950">Quest</text>
+      <text x="342" y="842" fill="#a8b8b5" font-size="16" font-weight="760">Use cruise control</text>
+      <g transform="translate(334 878)">
+        <rect width="232" height="88" rx="20" fill="#17231f"/>
+        <text x="20" y="38" fill="#a8b8b5" font-size="14" font-weight="800">Progress this week</text>
+        <text x="212" y="40" text-anchor="end" fill="#f5fbf8" font-size="22" font-weight="950">68%</text>
+        <rect x="20" y="58" width="192" height="12" rx="6" fill="#263331"/>
+        <rect x="20" y="58" width="130" height="12" rx="6" fill="#93f9b9"/>
+      </g>
+      <g transform="translate(342 992)">
+        <rect width="216" height="42" rx="21" fill="#f5fbf8"/>
+        <text x="108" y="27" text-anchor="middle" fill="#071114" font-size="15" font-weight="900">Open lesson</text>
+      </g>
+      <path d="M318 1062h264v12a30 30 0 0 1-30 30H348a30 30 0 0 1-30-30Z" fill="#0d1818"/>
+      <path d="M318 1062h264" stroke="#263331" stroke-width="2"/>
+      <g fill="none" stroke="#a8b8b5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(346 1075) scale(0.72)">
+          <path d="m15 18-6-6 6-6"/>
+        </g>
+        <g transform="translate(396 1075) scale(0.72)">
+          <path d="m9 18 6-6-6-6"/>
+        </g>
+        <g transform="translate(462 1075) scale(0.72)">
+          <path d="M12 3v12"/>
+          <path d="m17 8-5-5-5 5"/>
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        </g>
+        <g transform="translate(526 1075) scale(0.72)">
+          <rect x="8" y="8" width="14" height="14" rx="2"/>
+          <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+        </g>
+      </g>
+    </g>
+
+    <g class="insight-card" transform="translate(616 818)">
+      <rect width="180" height="116" rx="20" fill="url(#driver-card)" stroke="#2f403e" stroke-width="2" filter="url(#driver-shadow)"/>
+      <text x="22" y="35" fill="#a8b8b5" font-size="13" font-weight="800">TARGET IMPACT</text>
+      <text x="22" y="78" fill="#f5fbf8" font-size="34" font-weight="950">15%</text>
+      <circle cx="136" cy="66" r="22" fill="#10241d"/>
+      <path d="M125 67l8 8 18-22" fill="none" stroke="#93f9b9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
