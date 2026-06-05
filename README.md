@@ -1,6 +1,10 @@
-# Sergi Fernandez Portfolio Site
+# Sergi Fernandez Portfolio
 
-Static personal portfolio published with GitHub Pages.
+Personal product portfolio covering mobility, AI-assisted coaching, platforms, product adoption, and product operating systems.
+
+Live site: [sergi-fernandez.github.io](https://sergi-fernandez.github.io/)
+
+![Portfolio homepage preview](assets/portfolio-homepage-preview.jpg)
 
 ## Overview
 
@@ -9,8 +13,7 @@ This site is published from:
 - Repository: `sergi-fernandez/sergi-fernandez.github.io`
 - URL: `https://sergi-fernandez.github.io/`
 
-There is intentionally no package manager, framework, or build step. Keeping the site static reduces maintenance cost and
-avoids deployment drift.
+There is intentionally no package manager, framework, or build step. Keeping the site static reduces maintenance cost and avoids deployment drift.
 
 ## Structure
 
@@ -24,8 +27,7 @@ avoids deployment drift.
 - Preserve visual design, copy, routes, spacing, colors, and animations unless a visible bug is being fixed.
 - Keep assets in `assets/` and reference them with relative paths so GitHub Pages can serve them directly.
 - Avoid new dependencies unless the site gains enough complexity to justify a build tool.
-- Treat files in `assets/` as public URLs. Do not delete or rename them unless all page references and external uses have
-  been considered.
+- Treat files in `assets/` as public URLs. Do not delete or rename them unless all page references and external uses have been considered.
 - Keep JavaScript progressive: decorative behavior should fail without blocking the content.
 
 ## Local Preview
