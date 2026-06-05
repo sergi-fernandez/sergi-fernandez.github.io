@@ -4,7 +4,7 @@ Personal product portfolio covering mobility, AI-assisted coaching, platforms, p
 
 Live site: [sergi-fernandez.github.io](https://sergi-fernandez.github.io/)
 
-![Portfolio homepage preview](assets/portfolio-homepage-preview.jpg)
+![Portfolio header preview](assets/portfolio-header-preview.png)
 
 ## Overview
 
